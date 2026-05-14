@@ -20,6 +20,10 @@ The visualization includes:
 - Axes generation
 - Bar creation using data binding
 
+## Rendering of Visualization
+<img width="994" height="639" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/af3215d1-c235-4adc-a265-005eae645af0" />
+
+
 ## How to Run
 1. Open the project folder in Visual Studio Code
 2. Run `index.html` using Live Server
