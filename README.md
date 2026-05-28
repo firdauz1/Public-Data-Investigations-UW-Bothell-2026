@@ -1,20 +1,67 @@
-# Public-Data-Investigations-UW-Bothell-2026
-Showcases all work done in Public Data Investigations course at UW Bothell Spring of 2026
+# Seattle Apartment Rent Visualization (2024)
 
-# Firdaus Thalib
+This project is an interactive bar chart visualization created with D3.js.  
+The chart explores apartment rent trends across Seattle census tracts using apartment market rent data.
 
-![My Image Display](self_profile.jpg)
+The visualization compares multiple apartment rent indicators:
 
+- Median apartment rent per unit
+- Median apartment rent per square foot
+- Year-over-year rent change per unit
+- Year-over-year rent change per square foot
 
+The goal of the visualization is to show how apartment rent patterns and rent pressure vary across Seattle neighborhoods.
 
+---
 
-## About Me
+## Visualization
 
-I am a senior in the **Data Visualization program at UW Bothell** with a minor in **Health Studies**, graduating Spring Quarter. My past projects have reflected my interests in public health issues such as examining health and education disparities, as well as environmental issues to uncover the climate crisis. I have used tools such as **ArcGIS, R, and Python,** and have experienced building interactive dashboards and visualizations for the purpose of influencing public policy and program improvements.  
+![Seattle Rent Visualization](demo_rent_prices.gif)
 
-## Skills and Interests
-- **Data Visualization:** ArcGIS, Tableau, interactive dashboards built with R
-- **Data Analysis:** R, Python, SPSS
-- **Areas of Interest:** Public health, climate & environmental data, K-12 and higher education
+---
 
+## Tools Used
 
+- D3.js
+- JavaScript
+- HTML
+- CSS
+- Git Bash
+- VS Code
+
+---
+
+## Resources
+
+D3.js (https://d3js.org/)
+
+---
+
+## Dataset
+
+**Dataset:** Apartment Market Rent Prices by Census Tract  
+**Source:** City of Seattle Open Data Portal
+
+Data used in this project includes:
+- Seattle census tracts
+- Apartment market rent values
+- Year-over-year rent changes
+- 2024 housing market information
+
+Source Reference: https://data.seattle.gov/
+
+---
+
+## Project Features
+
+- Interactive bar chart visualization
+- External CSV data loading with D3
+- Dropdown menu interaction
+- Button interaction for sorting values
+- Animated transitions
+- Hover tooltip interactions
+- SVG-based visualization
+- Axis labels and chart title
+- CSS styling for chart presentation
+
+---

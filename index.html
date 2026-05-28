@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Seattle Rent Prices</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Apartment Rent Change by Seattle Census Tract</h1>
+
+    <p class="description">
+      This interactive visualization shows apartment rent trends across Seattle census tracts.
+      Users can compare median rent, year-over-year rent change, and percent rent change
+      to understand where rent pressure may be increasing.
+      This project uses D3.js for data loading, scales, axes, transitions, and event listeners. I referenced D3 documentation for transitions, events, and CSV loading, and used the City of Seattle Open Data Portal dataset “Apartment Market Rent Prices by Census Tract.”
+    </p>
+
+    <div class="controls">
+      <label for="metric">Select Rent Indicator:</label>
+
+
+      <select id="metric">
+  <option value="Tract Median Apartment Contract Rent per Unit">Median Rent per Unit</option>
+  <option value="Tract Median Apartment Contract Rent per Square Foot">Median Rent per Sq. Ft.</option>
+  <option value="Year over Year Change in Rent per Unit">YoY Change per Unit</option>
+  <option value="Year over Year Change in Rent per Square Foot">YoY Change per Sq. Ft.</option>
+    </select>
+
+      <button id="sortButton">Sort High to Low</button>
+    </div>
+
+    <svg id="chart"></svg>
+
+    <p class="citation">
+      Data Source: City of Seattle Open Data Portal — Apartment Market Rent Prices by Census Tract.
+    </p>
+  </div>
+
+  <div class="tooltip" id="tooltip"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
